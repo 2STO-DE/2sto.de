@@ -1,5 +1,5 @@
 import Head from "next/head";
-import React from 'react' ;
+import React, { FC } from 'react' ;
 import type {ReactNode} from 'react';
 import { Box } from "@chakra-ui/react";
 
@@ -8,13 +8,17 @@ type IProps = {
     pageTitle:string;
 }
 
-const PageLayout = ({children, pageTitle}) => {
+const PageLayout:FC<IProps> = ({children, pageTitle}) => {
     return (
         <>
         <Head>
             <title>{pageTitle}</title>
         </Head>
-        <Box>
+        <Box 
+            marginLeft='10%'
+            marginRight='10%'
+            paddingTop='10%'
+        >
             {children}
         </Box>
         </>

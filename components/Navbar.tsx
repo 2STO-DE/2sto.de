@@ -106,7 +106,8 @@ const Navbar = () => {
             <HStack 
                     justifyContent='center'  
                 >
-                <HStack 
+                <HStack
+                w='100%' 
                     backgroundColor='#0080FB'
                     borderRadius='20px'
                     color='white'

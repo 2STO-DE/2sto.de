@@ -11,7 +11,7 @@ const Home = () => {
           <VStack
             w='50%'
           >
-            <Image src="https://www.q5infotech.com/wp-content/uploads/2020/09/website-design-and-development.png" alt="img" />
+            <Image src="./index_banner.png" alt="img" />
           </VStack>
           <VStack
             w='50%'

@@ -27,7 +27,7 @@ const Home = () => {
                 color='gray.100' 
                 fontSize='2.5rem'
               >
-                We build perfectly ui and high function  for both web and mobile 
+                 We build perfectly ui and high function app for web and mobile
               </Text>
           </VStack> 
         </HStack>

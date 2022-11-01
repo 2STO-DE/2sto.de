@@ -6,7 +6,7 @@ const Home = () => {
 
   const desktop = (
         <HStack 
-          h='60vh' 
+          h='85vh' 
         >
           <VStack
             w='50%'

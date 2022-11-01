@@ -9,7 +9,7 @@ const Layout:FC<IProps> = ({children}) => {
     return (
         <>
         <Box
-            h='100vh'
+            h='100%'
             bgGradient='linear(to-t, #00C9FF, blue.300)'
         >
             {children}

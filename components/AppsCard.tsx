@@ -11,9 +11,10 @@ import { FC } from 'react'
 type IProps = {
     img:string
     title:string
+    href:string
 }
 
-const AppsCard:FC<IProps> = ({img, title}) => {
+const AppsCard:FC<IProps> = ({img, title, href}) => {
     const [isMobile] = useMediaQuery("(min-width: 758px)") 
     const Desktop = (
             <HStack
@@ -35,6 +36,7 @@ const AppsCard:FC<IProps> = ({img, title}) => {
                         Workflow Premium
                     </Text>
                     <Link
+                        href={href}
                         border='2px solid black'
                         paddingLeft='1%'
                         paddingRight='1%'

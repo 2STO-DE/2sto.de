@@ -11,6 +11,7 @@ const Apps = () => {
         >
             <Box>
                 <AppsCard
+                    href="/apps/workflow"
                     img="https://play-lh.googleusercontent.com/N4ivFDHFvEZdLKnY-wotnEZmRKvN2fpNtVmwZ1DitkaFUzQmHh3Aj5mTHjwCzjUyEpE=w240-h480-rw"
                     title="Workflow Premium"
                 />    

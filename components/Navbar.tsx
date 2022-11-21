@@ -49,7 +49,8 @@ const Navbar = () => {
                     >
                         Home
                     </Link>
-                    <Link 
+                    {/* Create About page then this code block make active */}
+                    {/* <Link 
                         padding='2%' 
                         fontWeight='bold' 
                         borderBottom='3px solid transparent'
@@ -59,6 +60,18 @@ const Navbar = () => {
                         }}
                     >
                             About
+                    </Link> */}
+                    <Link 
+                    href="/apps"
+                    padding='2%'  
+                    fontWeight='bold' 
+                    borderBottom='3px solid transparent'
+                        _hover={{
+                            textDecoration:'none',
+                            borderBottom:'3px solid white'
+                        }}
+                    >
+                        Apps
                     </Link>
                     <Link 
                     padding='2%'  
@@ -70,7 +83,7 @@ const Navbar = () => {
                         }}
                     >
                         Contact
-                    </Link>
+                    </Link>  
                 </HStack>
                 <Box>
                     <Button 

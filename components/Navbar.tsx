@@ -115,20 +115,20 @@ const Navbar = () => {
             marginLeft='5%'
             marginRight='5%%'
             paddingTop='3%'
-            
         >
             <HStack 
                     justifyContent='center'  
                 >
                 <HStack
-                w='100%' 
+                    w='100%' 
                     backgroundColor='#0080FB'
                     borderRadius='20px'
                     color='white'
-                    justifyContent='space-between'
+                    justifyContent='space-around'
                     padding='0.5%'
                 >
-                    <Link 
+                    <Link
+                        href='/'
                         padding='2%' 
                         fontWeight='bold'
                         borderBottom='3px solid transparent'
@@ -139,7 +139,19 @@ const Navbar = () => {
                     >
                         Home
                     </Link>
-                    <Link 
+                    <Link
+                        href='/apps' 
+                        padding='2%' 
+                        fontWeight='bold'
+                        borderBottom='3px solid transparent'
+                        _hover={{
+                            textDecoration:'none',
+                            borderBottom:'3px solid white'
+                        }} 
+                    >
+                        Apps
+                    </Link>
+                    {/* <Link 
                         padding='2%' 
                         fontWeight='bold' 
                         borderBottom='3px solid transparent'
@@ -149,7 +161,7 @@ const Navbar = () => {
                         }}
                     >
                             About
-                    </Link>
+                    </Link> */}
                     <Link 
                     padding='2%'  
                     fontWeight='bold' 

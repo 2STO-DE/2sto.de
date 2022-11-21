@@ -38,7 +38,8 @@ const Navbar = () => {
                     paddingRight='3%'
                     paddingLeft='3%'
                 >
-                    <Link 
+                    <Link
+                        href="/" 
                         padding='2%' 
                         fontWeight='bold'
                         borderBottom='3px solid transparent'

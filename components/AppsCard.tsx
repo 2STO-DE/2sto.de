@@ -76,6 +76,7 @@ const AppsCard:FC<IProps> = ({img, title, href}) => {
                         Workflow Premium
                     </Text>
                     <Link
+                        href={href}
                         border='2px solid black'
                         paddingLeft='1%'
                         paddingRight='1%'

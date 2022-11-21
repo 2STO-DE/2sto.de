@@ -1,5 +1,5 @@
 import PageLayout from "../components/leyout/PageLayout"
-import { Box, HStack, Text, Image, VStack, useMediaQuery } from "@chakra-ui/react"
+import { HStack, Text, Image, VStack, useMediaQuery } from "@chakra-ui/react"
 
 const Home = () => {
   const [isMobile] = useMediaQuery("(min-width: 758px)")
@@ -35,7 +35,7 @@ const Home = () => {
 
   const mobile = (
          <VStack 
-          h='60vh' 
+          h='100vh' 
           paddingTop='15%'
          >
           <VStack>

@@ -1,5 +1,5 @@
 import { Box} from "@chakra-ui/react"
-import PageLayout from "../../components/leyout/PageLayout"
+import PageLayout from "../../../components/leyout/PageLayout"
 
 const Privacy = () => {
     return(

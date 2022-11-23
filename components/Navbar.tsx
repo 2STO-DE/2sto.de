@@ -22,7 +22,7 @@ const Navbar = () => {
                 <HStack>
                     <Image src='/logo.png' alt="logo" h='50px' />
                     <Text 
-                        color='white' 
+                        color='#EDEDED' 
                         fontWeight='bold'
                     >
                         2STO
@@ -30,9 +30,8 @@ const Navbar = () => {
                 </HStack>
                 <HStack 
                     w='30%'
-                    backgroundColor='#0080FB'
+                    backgroundColor='#EDEDED'
                     borderRadius='20px'
-                    color='white'
                     justifyContent='space-between'
                     padding='0.5%'
                     paddingRight='3%'
@@ -45,7 +44,7 @@ const Navbar = () => {
                         borderBottom='3px solid transparent'
                         _hover={{
                             textDecoration:'none',
-                            borderBottom:'3px solid white'
+                            borderBottom:'3px solid black'
                         }} 
                     >
                         Home
@@ -69,7 +68,7 @@ const Navbar = () => {
                     borderBottom='3px solid transparent'
                         _hover={{
                             textDecoration:'none',
-                            borderBottom:'3px solid white'
+                            borderBottom:'3px solid black'
                         }}
                     >
                         Apps
@@ -80,7 +79,7 @@ const Navbar = () => {
                     borderBottom='3px solid transparent'
                         _hover={{
                             textDecoration:'none',
-                            borderBottom:'3px solid white'
+                            borderBottom:'3px solid black'
                         }}
                     >
                         Contact
@@ -88,14 +87,13 @@ const Navbar = () => {
                 </HStack>
                 <Box>
                     <Button 
-                        color='white'
-                        backgroundColor='#0080FB'
+                        backgroundColor='#EDEDED'
                         borderRadius='15px'
                         _hover={{
-                            backgroundColor:'#0668E1'
+                            backgroundColor:'lightgrey'
                         }}
                         _active={{
-                            backgroundColor:'#0668E1'
+                            backgroundColor:'grey'
                         }}
                     >
                         GitHub
@@ -121,9 +119,8 @@ const Navbar = () => {
                 >
                 <HStack
                     w='100%' 
-                    backgroundColor='#0080FB'
+                    backgroundColor='#EDEDED'
                     borderRadius='20px'
-                    color='white'
                     justifyContent='space-around'
                     padding='0.5%'
                 >
@@ -134,7 +131,7 @@ const Navbar = () => {
                         borderBottom='3px solid transparent'
                         _hover={{
                             textDecoration:'none',
-                            borderBottom:'3px solid white'
+                            borderBottom:'3px solid #EDEDED'
                         }} 
                     >
                         Home
@@ -146,7 +143,7 @@ const Navbar = () => {
                         borderBottom='3px solid transparent'
                         _hover={{
                             textDecoration:'none',
-                            borderBottom:'3px solid white'
+                            borderBottom:'3px solid #EDEDED'
                         }} 
                     >
                         Apps
@@ -168,7 +165,7 @@ const Navbar = () => {
                     borderBottom='3px solid transparent'
                         _hover={{
                             textDecoration:'none',
-                            borderBottom:'3px solid white'
+                            borderBottom:'3px solid #EDEDED'
                         }}
                     >
                         Contact
@@ -179,7 +176,7 @@ const Navbar = () => {
                     borderBottom='3px solid transparent'
                         _hover={{
                             textDecoration:'none',
-                            borderBottom:'3px solid white'
+                            borderBottom:'3px solid #EDEDED'
                         }}
                     >
                         GitHub

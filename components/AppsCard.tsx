@@ -18,7 +18,7 @@ const AppsCard:FC<IProps> = ({img, title, href}) => {
     const [isMobile] = useMediaQuery("(min-width: 758px)") 
     const Desktop = (
             <HStack
-                backgroundColor='white'
+                backgroundColor='#EDEDED'
                 borderRadius='10px'
             >
                 <Image
@@ -55,7 +55,7 @@ const AppsCard:FC<IProps> = ({img, title, href}) => {
     
     const Mobile = (
             <VStack
-                backgroundColor='white'
+                backgroundColor='#EDEDED'
                 marginTop='10%'
                 paddingBottom='5%' 
                 borderRadius='10px'
